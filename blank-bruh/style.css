@@ -17,28 +17,27 @@ body::before, body::after {
 
 head { 
   display: block;
-  background-image: url(https://giphy.com/gifs/hate-creepers-gifwave-XYNy4RukxgD9C);
   height:25rem;
   width:25rem;
   background-repeat: no-repeat;
   background-size: cover;
   border: 5px solid #eee;
   border-radius: 10px;
-  border-style: dashed;
+  border-style: solid;
 }
 
 body::before {
   display: inline-block;
-  padding-top: 3rem;
+  padding-top: 2rem;
   content: "bruh";
 }
 
 body::after {
-  margin-left: 16px;
+  margin-left: 12px;
   display: inline;
   content: "i";
   background: #ff4473;
-  animation: blink 1s infinite;
+  animation: blink 0.8s infinite;
 }
 
 @keyframes blink {
